@@ -1,0 +1,96 @@
+[{
+  "_id": {
+    "$oid": "67c2a9ded847c149d0ab5cd5"
+  },
+  "nameCompany": "Telus",
+  "impact": "Alto",
+  "yearsOfExperience": 10,
+  "companyCategory": "Ingles",
+  "state": true,
+  "createdAt": {
+    "$date": "2025-03-01T06:31:58.078Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-01T06:31:58.078Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67c2ac64b30580468ff52be6"
+  },
+  "nameCompany": "Tec",
+  "impact": "Alto",
+  "yearsOfExperience": 20,
+  "companyCategory": "Programacion",
+  "state": true,
+  "createdAt": {
+    "$date": "2025-03-01T06:42:44.582Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-01T06:42:44.582Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67c2acbadc61c227ee375b51"
+  },
+  "nameCompany": "Perry",
+  "impact": "Alto",
+  "yearsOfExperience": 15,
+  "companyCategory": "Produccion de embutidos",
+  "state": true,
+  "createdAt": {
+    "$date": "2025-03-01T06:44:10.704Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-01T06:44:10.704Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67c2ae063561e5751e6d3833"
+  },
+  "nameCompany": "Gauchitos",
+  "impact": "Medio",
+  "yearsOfExperience": 5,
+  "companyCategory": "Productora alimenticia",
+  "state": true,
+  "createdAt": {
+    "$date": "2025-03-01T06:49:42.531Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-01T07:56:41.576Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67c371db4280f09cd70b85e3"
+  },
+  "nameCompany": "Antec",
+  "impact": "Bajo",
+  "yearsOfExperience": 1,
+  "companyCategory": "Programacion",
+  "state": true,
+  "createdAt": {
+    "$date": "2025-03-01T20:45:15.142Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-01T20:45:15.142Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67c372184280f09cd70b85ec"
+  },
+  "nameCompany": "Zotec",
+  "impact": "Bajo",
+  "yearsOfExperience": 3,
+  "companyCategory": "Programacion",
+  "state": true,
+  "createdAt": {
+    "$date": "2025-03-01T20:46:16.110Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-01T20:46:16.110Z"
+  }
+}]

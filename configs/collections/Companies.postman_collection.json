@@ -1,0 +1,153 @@
+{
+	"info": {
+		"_postman_id": "58287087-a4bc-4a0e-bf05-a18a510a95cf",
+		"name": "Companies",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "37413968"
+	},
+	"item": [
+		{
+			"name": "registerCompany",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "",
+						"value": "",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nameCompany\": \"Zotec\",\r\n    \"impact\": \"Bajo\",\r\n    \"yearsOfExperience\": 3,\r\n    \"companyCategory\": \"Programacion\"\r\n    \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3001/gestorEmpresas/v1/company/registerCompany/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"gestorEmpresas",
+						"v1",
+						"company",
+						"registerCompany",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateCompany",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "x-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2MyOWJmOTg1N2I1OTRhZWVhYzIxOTAiLCJpYXQiOjE3NDA4MTUxMzQsImV4cCI6MTc0MDgxODczNH0.osdgx0TTRGmOtKOqvjyo-Qgqv9Yckq3Qw0W2F_Xg0t8",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nameCompany\": \"Gauchitos\",\r\n    \"impact\": \"Medio\",\r\n    \"yearsOfExperience\": 25,\r\n    \"companyCategory\": \"Productora alimenticia\"\r\n    \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3001/gestorEmpresas/v1/company/updateCompany/67c2ae063561e5751e6d3833",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"gestorEmpresas",
+						"v1",
+						"company",
+						"updateCompany",
+						"67c2ae063561e5751e6d3833"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CompaniesView",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3001/gestorEmpresas/v1/company/?ordenYears=mayorMenor&companyCategory=Programacion&ordenAZoZA=&buscarPor=yearsOfExperience",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"gestorEmpresas",
+						"v1",
+						"company",
+						""
+					],
+					"query": [
+						{
+							"key": "ordenYears",
+							"value": "mayorMenor"
+						},
+						{
+							"key": "companyCategory",
+							"value": "Programacion"
+						},
+						{
+							"key": "ordenAZoZA",
+							"value": ""
+						},
+						{
+							"key": "buscarPor",
+							"value": "yearsOfExperience"
+						},
+						{
+							"key": "",
+							"value": null,
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Excel",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3001/gestorEmpresas/v1/company/excel",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"gestorEmpresas",
+						"v1",
+						"company",
+						"excel"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

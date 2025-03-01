@@ -1,0 +1,60 @@
+[{
+  "_id": {
+    "$oid": "67c2b4fbd9bcc919fb467adb"
+  },
+  "keeperCompany": {
+    "$oid": "67c2ac64b30580468ff52be6"
+  },
+  "state": true,
+  "createdAt": {
+    "$date": "2025-03-01T07:19:23.174Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-01T07:19:23.174Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67c2bd8a5f71ff44350cbeab"
+  },
+  "keeperCompany": {
+    "$oid": "67c2ae063561e5751e6d3833"
+  },
+  "state": true,
+  "createdAt": {
+    "$date": "2025-03-01T07:55:54.010Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-01T07:55:54.010Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67c371fd4280f09cd70b85e8"
+  },
+  "keeperCompany": {
+    "$oid": "67c371db4280f09cd70b85e3"
+  },
+  "state": true,
+  "createdAt": {
+    "$date": "2025-03-01T20:45:49.823Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-01T20:45:49.823Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67c372204280f09cd70b85f0"
+  },
+  "keeperCompany": {
+    "$oid": "67c372184280f09cd70b85ec"
+  },
+  "state": true,
+  "createdAt": {
+    "$date": "2025-03-01T20:46:24.387Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-01T20:46:24.387Z"
+  }
+}]
