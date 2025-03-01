@@ -5,9 +5,10 @@ import cors from 'cors';
 import helmet from 'helmet';
 import morgan from 'morgan';
 
-
+import userRoutes from '../src/users/user.routes.js';
+import authRoutes from '../src/auth/auth.routes.js';
 import authCompany from '../src/companies/companies.routes.js';
-
+import authCompanyAdd from '../src/companiesAdd/companiesAdd.routes.js';
 
 import  { dbConnection } from './mongo.js';
 
@@ -20,9 +21,10 @@ const middlewares = (app) => {
 };
 
 const routes = (app) => {
-
+    app.use('/gestorEmpresas/v1/auth', authRoutes);
+    app.use('/gestorEmpresas/v1/users', userRoutes);
     app.use('/gestorEmpresas/v1/company', authCompany);
-
+    app.use('/gestorEmpresas/v1/companyAdd', authCompanyAdd);
 };
 
 export const conetarDB = async() => {

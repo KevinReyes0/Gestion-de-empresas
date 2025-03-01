@@ -1,4 +1,4 @@
-
+import User from '../users/user.model.js';
 import Company from '../companies/companies.model.js';
 
 export const existeEmail = async(email = '') =>{
